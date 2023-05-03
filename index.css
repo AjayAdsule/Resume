@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;800&family=Poppins:ital,wght@0,300;0,400;1,500;1,800&display=swap");
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  min-width: 1180px;
+  margin-inline: 30px;
+  border: 2px solid red;
+  min-height: 300px;
+  display: flex;
+}
+.heading {
+  text-align: center;
+  font-size: 1.5rem;
+}
+.left {
+  width: 250px;
+  border: 2px solid blue;
+}
+.right {
+  width: 100%;
+  border: 2px solid green;
+}
+.profile-image {
+  border: 2px solid red;
+  background-color: blueviolet;
+}
+.profile-image img {
+  max-width: 100px;
+  padding-left: 50px;
+  padding-top: 10px;
+}
+.name {
+  text-align: center;
+  font-family: "poppins", sans-serif;
+}
+h3 {
+  text-align: center;
+  font-family: "popins", sans-serif;
+}
+.contact-details {
+  text-align: center;
+  font-family: "poppins", sans-serif;
+}
+.content p {
+  text-align: center;
+  padding: 20px 30px 10px;
+  font-family: "poppins", sans-serif;
+  font-size: 1.3rem;
+}
+table {
+  margin-left: 230px;
+}
+th {
+  width: 20%;
+  height: 40px;
+  border: 2px solid black;
+}
+td {
+  text-align: center;
+  border: 2px solid black;
+  height: 40px;
+}
+.lists li {
+  font-family: "poppins", sans-serif;
+  font-size: 1rem;
+}
